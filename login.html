@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
+  <link rel="icon" type="image/png" href="./images/icon.png">
   <link rel="stylesheet" href="./css/style2.css">
 </head>
 
@@ -12,7 +13,7 @@
   <div class="wrapper">
     <!-- Home Page Link -->
     <p><a href="index.html" style="text-decoration: none; color: blue;">&#8592; Back to Home</a></p>
-    
+
     <h1>Login</h1>
     <p id="error-message"></p>
     <form onsubmit="return validateAll()" id="enrollmentForm">
@@ -31,7 +32,8 @@
         </label>
         <input type="password" name="password" id="password-input" placeholder="Password">
       </div>
-      <input type="checkbox" id="showp"> <label style="width: 200px; height: 40px; border-radius: 10px 10px 10px 10px;">Show password</label>
+      <input type="checkbox" id="showp">
+      <label style="width: 200px; height: 40px; border-radius: 10px 10px 10px 10px;">Show password</label>
       <button type="submit">Login</button>
     </form>
     <p>New here? <a href="signup.html">Create an Account</a></p>
